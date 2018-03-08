@@ -1,2 +1,4 @@
-# metatext
-subtext context hypertext metatext
+metatext
+========
+
+⤤ subtext ↗︎ context ↺ hypertext ↔︎ metatext ⤵︎
