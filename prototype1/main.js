@@ -1,5 +1,29 @@
 /* Models */
 //This contains the text, and the way they link to the next paragraph
+//
+// ----
+// OK I realised this is not a rhizome though, which should already be clear
+// by the fact that we kept using the word 'branching' yesterday, which
+// makes it totally not a rhizome. It is in fact a tree structure with some branches
+// every now and then, very much how git works (meta-lol).
+//
+// For this to be a rhizome, I think there should be not next id already set,
+// and upon page loading, you would see all the item of the array laying sort of
+// randomly around the page. Also, I was thining a grid-like layout would fit, but
+// it's once again non rhizomatic, as it is not a flat-surface (in D&G slang),
+// rather a striped / streaked surface (cfr a gridded surface).
+//
+// So I think the way a rhizomatic text / document should work is:
+// upon loading you get all your items dispersed all over the page, then
+// you start clicking on one, then you pick another one an make a connection
+// and so forth. It is more of a continous discovery for the user both
+// reading *and* working on this array, than the user deciding upfront the order
+// and then another user (or the same one) going through it and make some choices
+// when being asked. I imagine this probably more as a cut-up style of working
+// together with a mind-mapp / connection / etc...
+//
+// ☺︎
+//
 var Rhizome = [
     {
         id: 0,
